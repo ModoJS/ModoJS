@@ -1,0 +1,17 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const movementRoutes = () => {
+    const router = express_1.default.Router();
+    ;
+    // router.get("/:id", MovementController.get.bind(MovementController));
+    // router.post("/", MovementController.create.bind(MovementController));
+    // router.put("/:id", MovementController.update.bind(MovementController));
+    // router.delete("/:id", MovementController.delete.bind(MovementController));
+    return router;
+};
+exports.default = movementRoutes;
+//# sourceMappingURL=movement.routes.js.map
